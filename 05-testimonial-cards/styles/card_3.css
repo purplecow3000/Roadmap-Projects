@@ -1,0 +1,41 @@
+.card-3 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+}
+
+.reviewer-image-3 {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.reviewer-picture-3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.reviwer-info-3 {
+  width: 420px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.reviewer-rating-3,
+.review-3 {
+  font-size: 0.9em;
+}
+
+.reviewer-name-3 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.reviewer-job-3 {
+  font-size: 0.8em;
+  color: gray;
+}

@@ -1,0 +1,58 @@
+.card-4 {
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-4 {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.scrollable-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewer-image-4,
+.reviewer-image-5,
+.reviewer-image-6 {
+  width: 100px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewer-image-4 {
+  margin-left: 30px;
+}
+
+.reviewer-image-6 {
+  margin-right: 30px;
+}
+
+.reviewer-picture-4,
+.reviewer-picture-5,
+.reviewer-picture-6 {
+  border-radius: 100px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.reviewer-picture-4,
+.reviewer-picture-6 {
+  width: 80px;
+  height: 80px;
+  opacity: 0.5;
+}
+
+.reviewer-name-4 {
+  font-size: 1em;
+}

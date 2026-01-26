@@ -1,0 +1,59 @@
+.card-1 {
+  width: 350px;
+}
+
+.speech-bubble {
+  position: relative;
+  z-index: 100;
+  margin-bottom: 15px;
+}
+
+.speech-box {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.review-1,
+.reviewer-rating-1 {
+  font-size: 0.9em;
+}
+
+.speech-arrow {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 40px;
+  bottom: -5px;
+  transform: rotate(45deg);
+  /* z-index: ; */
+}
+
+.reviewer-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reviewer-image-1 {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.reviewer-picture-1 {
+  border-radius: 100px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.reviewer-name-1 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.reviewer-job-1 {
+  font-size: 0.8em;
+  margin-top: 0;
+}
