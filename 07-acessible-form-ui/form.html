@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is my version of the form UI project"
+    />
+    <meta name="author" content="Nick Boyer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Form UI" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="favicon.ico" />
+    <meta
+      property="og:url"
+      content="https://purplecow3000.github.io/Roadmap-Projects/07-acessible-form-ui/form.html"
+    />
+    <title>Form UI</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="form.css" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="form-ui">
+        <article id="login">
+          <form action="https://httpbin.org/post" method="post">
+            <label for="name">Full Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="What should we call you?"
+              aria-describedby="name-length-error"
+              aria-invalid="false"
+              aria-required="true"
+              required
+            />
+            <p id="name-length-error">Name should be atleast 3 letters long</p>
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="john@doe.com"
+              aria-describedby="taken-email-error"
+              aria-invalid="true"
+              aria-required="true"
+              required
+            />
+            <p id="taken-email-error">Email is already taken</p>
+
+            <label for="password">Enter Password</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="xxxxxxxxx"
+              aria-describedby="password-length-error"
+              aria-invalid="false"
+              aria-required="true"
+              required
+            />
+            <p id="password-length-error">
+              Password must be atleast 8 characters long
+            </p>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              id="confirm-password"
+              name="confirm-password"
+              type="password"
+              placeholder="xxxxxxxxx"
+              aria-describedby="password-match-error"
+              aria-invalid="false"
+              aria-required="true"
+              required
+            />
+            <p id="password-match-error">Passwords must match</p>
+
+            <input id="button" type="submit" value="Update Profile" />
+          </form>
+        </article>
+
+        <article id="tasks">
+          <div class="circle">
+            <div class="circle-gray">
+              <p class="percent">65%</p>
+            </div>
+
+            <div class="circle-black"></div>
+          </div>
+
+          <div class="profile-completeness">
+            <p class="completeness">Profile Completeness</p>
+          </div>
+
+          <div class="checklist">
+            <ul>
+              <li>Create Acount</li>
+              <li>Update Roadmap Progress</li>
+              <li>Setup Public Profile</li>
+              <li>Complete your first project</li>
+              <li>Invite your friends</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Nick Boyer</p>
+      <p><a href="/">Back to Home</a></p>
+    </footer>
+  </body>
+</html>
