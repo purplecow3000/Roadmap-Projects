@@ -34,6 +34,23 @@ a {
   padding: 10px;
 }
 
+#projects {
+  text-align: center;
+}
+
+#projects > a {
+  background-color: var(--secondary);
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+  transition: background-color 0.15s;
+}
+
+#projects > a:hover {
+  background-color: var(--primary);
+}
+
 #work-experience {
   display: grid;
   grid-template-columns: 50% 50%;

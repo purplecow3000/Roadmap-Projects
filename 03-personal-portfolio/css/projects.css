@@ -46,6 +46,10 @@ article > div > section {
   border: 5px solid var(--secondary);
 }
 
+section > p {
+  height: 40px;
+}
+
 section > div {
   display: flex;
   justify-content: space-around;
