@@ -1,0 +1,155 @@
+:root {
+  --text: hsl(279, 54%, 5%);
+  --background: hsl(280, 60%, 99%);
+  --primary: hsl(280, 53%, 20%);
+  --secondary: hsl(265, 65%, 30%);
+  --accent: hsl(255, 75%, 50%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: hsl(279, 54%, 95%);
+    --background: hsl(280, 60%, 1%);
+    --primary: hsl(280, 53%, 80%);
+    --secondary: hsl(265, 65%, 70%);
+    --accent: hsl(255, 75%, 50%);
+  }
+}
+
+html {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: 5px solid var(--secondary);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent);
+  transition: background-color 0.15s;
+}
+
+a:hover {
+  background-color: var(--primary);
+}
+
+ul > li a {
+  display: block;
+  text-align: center;
+}
+
+#navbar > nav > ul > li {
+  float: left;
+}
+
+#navbar > nav > ul > li a {
+  padding: 10px 15px;
+}
+
+#navbar p {
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#heading {
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid var(--primary);
+}
+
+#heading > h1 {
+  font-size: 2em;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#heading > figure {
+  margin-bottom: 0;
+}
+
+#heading > figure > img {
+  width: 800px;
+  height: initial;
+  border: 10px solid var(--primary);
+  border-radius: 10px;
+}
+
+#heading > figure > figcaption {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+/*main {
+  background-color: var(--pastel-blue);
+}*/
+
+h2 {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  border-top: 5px solid var(--primary);
+}
+
+footer a {
+  padding: 5px;
+}
+
+@media (max-width: 850px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navbar p {
+    text-align: center;
+    width: 100%;
+    translate: -1%;
+  }
+
+  #navbar > nav {
+    width: 100%;
+  }
+
+  #navbar > nav > ul > li {
+    float: none;
+  }
+
+  #heading > figure > img {
+    width: 100%;
+  }
+}

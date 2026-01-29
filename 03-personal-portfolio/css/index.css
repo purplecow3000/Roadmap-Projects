@@ -1,0 +1,103 @@
+#heading {
+  border: none;
+}
+
+div {
+  width: 100%;
+  display: flex;
+}
+
+main > div {
+  border-top: 5px solid var(--secondary);
+  border-bottom: 5px solid var(--secondary);
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+main > div > article {
+  padding: 10px;
+}
+
+main > div > article {
+  border-right: 5px solid var(--secondary);
+}
+
+main > div > article:last-of-type {
+  border: initial;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+a {
+  padding: 10px;
+}
+
+#work-experience {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 1fr 1fr;
+}
+
+#work-experience > h2 {
+  grid-column: 1 / span 2;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#reviews > div {
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+#reviews > div > div {
+  flex-direction: column;
+  width: 350px;
+  border: 3px solid var(--secondary);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.gray {
+  color: gray;
+}
+
+@media (max-width: 800px) {
+  main {
+    text-align: center;
+  }
+
+  main > div {
+    grid-template-columns: 1fr;
+  }
+
+  main > div > article {
+    border: none;
+  }
+
+  #projects {
+    border-bottom: 5px solid var(--secondary);
+  }
+
+  #work-experience {
+    grid-template-columns: 1fr;
+    border-bottom: 5px solid var(--secondary);
+  }
+
+  #work-experience > h2 {
+    grid-column: initial;
+  }
+
+  #reviews > div {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+}

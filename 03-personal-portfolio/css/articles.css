@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+article {
+  padding: 10px;
+}
+
+h2 {
+  text-align: left;
+  padding: initial;
+}
+
+article > p:first-of-type {
+  font-size: 0.9em;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+@media (max-width: 800px) {
+  article > div {
+    grid-template-columns: 1fr;
+  }
+}
