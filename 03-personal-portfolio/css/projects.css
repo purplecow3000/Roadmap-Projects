@@ -34,6 +34,15 @@ main > div {
   flex-direction: column;
 }
 
+article {
+  border-bottom: 10px solid var(--primary);
+  padding: 10px;
+}
+
+article:last-of-type {
+  border-bottom: none;
+}
+
 article > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

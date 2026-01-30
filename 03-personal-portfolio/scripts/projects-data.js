@@ -61,6 +61,119 @@ export const projects = [
     link: "/09-tooltip-ui/tooltip.html",
     description: "A tooltip user interface component using HTML and CSS.",
     type: "roadmap"
+  },
+  {
+    id: "codepen-rgb-sierpinski",
+    title: "RGB Sierpinski Triangle",
+    link: "https://codepen.io/purplecow3000/pen/BagZzrd",
+    description: "A colorful Sierpinski triangle made with HTML canvas.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-fibonacci-spiral",
+    title: "Fibonacci Spiral",
+    link: "https://codepen.io/purplecow3000/pen/BagmoBg",
+    description: "A Fibonacci spiral drawn using HTML canvas.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-double-cantor",
+    title: "Double Cantor Set",
+    link: "https://codepen.io/purplecow3000/pen/BagrjvK",
+    description: "A visualization of the double Cantor set using HTML canvas.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-rps-game",
+    title: "Rock Paper Scissors Game",
+    link: "https://codepen.io/purplecow3000/pen/xxomzzV",
+    description: "A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-new-year-countdown",
+    title: "New Year Countdown",
+    link: "https://codepen.io/purplecow3000/pen/RwzveEg",
+    description: "A countdown timer to the New Year using HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-simple-quiz",
+    title: "Simple Quiz",
+    link: "https://codepen.io/purplecow3000/pen/dyBxXzb",
+    description: "A simple quiz application built with HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-snowfall-randomizer",
+    title: "Snowfall Randomizer",
+    link: "https://codepen.io/purplecow3000/pen/ExgQYdW",
+    description: "A snowfall effect with randomized snowflakes using HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-swaying-card",
+    title: "Swaying Card",
+    link: "https://codepen.io/purplecow3000/pen/dPbJgLG",
+    description: "A card that sways with mouse movement using HTML, and CSS.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-daytime-selector",
+    title: "Daytime Selector",
+    link: "https://codepen.io/purplecow3000/pen/vEBoaxQ",
+    description: "A daytime selector component built with HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-css-ladybug",
+    title: "CSS Ladybug",
+    link: "https://codepen.io/purplecow3000/pen/PwojBEK",
+    description: "A ladybug illustration created entirely with CSS.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-ace-of-diamonds",
+    title: "Ace of Diamonds Card",
+    link: "https://codepen.io/purplecow3000/pen/XJWwray",
+    description: "An Ace of Diamonds playing card designed using HTML canvas.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-animated-rainbow-border",
+    title: "Animated Rainbow Border",
+    link: "https://codepen.io/purplecow3000/pen/ZYYzyNV",
+    description: "A card with an animated rainbow border effect using CSS.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-css-shape-corn",
+    title: "CSS Shape Corn",
+    link: "https://codepen.io/purplecow3000/pen/EaPrbLq",
+    description: "An illustration of corn created entirely with CSS shapes.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-color-selector",
+    title: "Color Selector",
+    link: "https://codepen.io/purplecow3000/pen/emZJRWV",
+    description: "A color selector component built with HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-triangle-generator",
+    title: "Triangle Generator",
+    link: "https://codepen.io/purplecow3000/pen/vEKLovQ",
+    description: "A triangle generator tool using HTML, CSS, and JavaScript.",
+    type: "codepen"
+  },
+  {
+    id: "codepen-2026-math-clock",
+    title: "2026 Math Clock",
+    link: "https://codepen.io/purplecow3000/pen/KwMMqJx",
+    description: "A clock that displays time using mathematical expressions built with HTML, CSS, and JavaScript.",
+    type: "codepen"
   }
+
 
 ];
