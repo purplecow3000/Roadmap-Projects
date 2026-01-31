@@ -27,5 +27,17 @@ projects.forEach(project => {
       </section>
     `;
     }
-  }
-);
+
+    if (project.type === "js30") {
+    const js30Projects = document.getElementById('js30-projects');
+    js30Projects.innerHTML += `
+      <section id="${project.id}">
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <div>
+          <a href="${project.link}" target="_blank">Website</a>
+        </div>
+      </section>
+    `;
+    }
+});

@@ -173,7 +173,13 @@ export const projects = [
     link: "https://codepen.io/purplecow3000/pen/KwMMqJx",
     description: "A clock that displays time using mathematical expressions built with HTML, CSS, and JavaScript.",
     type: "codepen"
+  },
+  {
+    id: "js30-drum-kit",
+    title: "Drum Kit",
+    link: "https://purplecow3000.github.io/JS30/01%20-%20JavaScript%20Drum%20Kit/drum-kit.html",
+    description: "A virtual drum kit that plays sounds when keys are pressed.",
+    type: "js30"
   }
-
 
 ];
