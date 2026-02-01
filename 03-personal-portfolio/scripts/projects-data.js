@@ -180,6 +180,13 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/01%20-%20JavaScript%20Drum%20Kit/drum-kit.html",
     description: "A virtual drum kit that plays sounds when keys are pressed.",
     type: "js30"
+  },
+  {
+    id: "js30-js-css-clock",
+    title: "JS and CSS Clock",
+    link: "https://purplecow3000.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/clock.html",
+    description: "An analog clock built with JavaScript and CSS.",
+    type: "js30"
   }
 
 ];
