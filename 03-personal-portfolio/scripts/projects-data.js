@@ -187,6 +187,13 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/clock.html",
     description: "An analog clock built with JavaScript and CSS.",
     type: "js30"
+  },
+  {
+    id: "js30-css-variables",
+    title: "CSS Variables",
+    link: "https://purplecow3000.github.io/JS30/03%20-%20CSS%20Variables/variables.html",
+    description: "A project demonstrating the use of CSS variables with JavaScript.",
+    type: "js30"
   }
 
 ];
