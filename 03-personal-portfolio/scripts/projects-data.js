@@ -194,6 +194,21 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/03%20-%20CSS%20Variables/variables.html",
     description: "A project demonstrating the use of CSS variables with JavaScript.",
     type: "js30"
+  },
+  {
+    id: "js30-array-cardio-day-1",
+    title: "Array Cardio Day 1",
+    /**link: "https://purplecow3000.github.io/JS30/04%20-%20Array%20Cardio%20Day%201/array-cardio-day-1.html",**/
+    link: "#",
+    description: "A project focusing on array methods in JavaScript.",
+    type: "js30"
+  },
+  {
+    id: "js30-flex-panel-gallery",
+    title: "Flex Panel Gallery",
+    link: "https://purplecow3000.github.io/JS30/05%20-%20Flex%20Panel%20Gallery/gallery.html",
+    description: "A gallery of panels that expand on hover using CSS Flexbox.",
+    type: "js30"
   }
 
 ];
