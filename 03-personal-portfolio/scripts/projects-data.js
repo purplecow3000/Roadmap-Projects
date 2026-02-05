@@ -228,7 +228,7 @@ export const projects = [
   {
     id: "js30-html5-canvas",
     title: "HTML5 Canvas",
-    link: "https://purplecow3000.github.io/JS30/08%20-%20HTML5%20Canvas/canvas.html",
+    link: "https://purplecow3000.github.io/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/canvas.html",
     description: "A project demonstrating the use of the HTML5 canvas element with JavaScript.",
     type: "js30"
   }
