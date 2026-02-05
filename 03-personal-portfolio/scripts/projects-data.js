@@ -216,6 +216,21 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/06%20-%20Type%20Ahead/type-ahead.html",
     description: "A type-ahead search feature built with JavaScript.",
     type: "js30"
+  },
+  {
+    id: "js30-array-cardio-day-2",
+    title: "Array Cardio Day 2",
+    /**link: "https://purplecow3000.github.io/JS30/07%20-%20Array%20Cardio%20Day%202/array-cardio-day-2.html",**/
+    link: "#",
+    description: "A continuation of the array methods project focusing on more advanced techniques.",
+    type: "js30"
+  },
+  {
+    id: "js30-html5-canvas",
+    title: "HTML5 Canvas",
+    link: "https://purplecow3000.github.io/JS30/08%20-%20HTML5%20Canvas/canvas.html",
+    description: "A project demonstrating the use of the HTML5 canvas element with JavaScript.",
+    type: "js30"
   }
 
 ];
