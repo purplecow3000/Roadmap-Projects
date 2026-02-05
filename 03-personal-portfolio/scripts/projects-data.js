@@ -209,6 +209,13 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/05%20-%20Flex%20Panel%20Gallery/gallery.html",
     description: "A gallery of panels that expand on hover using CSS Flexbox.",
     type: "js30"
+  },
+  {
+    id: "js30-type-ahead",
+    title: "Type Ahead",
+    link: "https://purplecow3000.github.io/JS30/06%20-%20Type%20Ahead/type-ahead.html",
+    description: "A type-ahead search feature built with JavaScript.",
+    type: "js30"
   }
 
 ];
