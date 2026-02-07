@@ -231,6 +231,13 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/canvas.html",
     description: "A project demonstrating the use of the HTML5 canvas element with JavaScript.",
     type: "js30"
+  },
+  {
+    id: "js30-Dev-Tools-Denomination",
+    title: "Dev Tools Denomination",
+    link: "https://purplecow3000.github.io/JS30/09%20-%20Dev%20Tools%20Domination/tools.html",
+    description: "A project demonstrating useful developer tools tricks.",
+    type: "js30"
   }
 
 ];
