@@ -198,8 +198,7 @@ export const projects = [
   {
     id: "js30-array-cardio-day-1",
     title: "Array Cardio Day 1",
-    /**link: "https://purplecow3000.github.io/JS30/04%20-%20Array%20Cardio%20Day%201/array-cardio-day-1.html",**/
-    link: "#",
+    link: "https://purplecow3000.github.io/JS30/04%20-%20Array%20Cardio%20Day%201/array-cardio-day-1.html",
     description: "A project focusing on array methods in JavaScript.",
     type: "js30"
   },
@@ -220,8 +219,7 @@ export const projects = [
   {
     id: "js30-array-cardio-day-2",
     title: "Array Cardio Day 2",
-    /**link: "https://purplecow3000.github.io/JS30/07%20-%20Array%20Cardio%20Day%202/array-cardio-day-2.html",**/
-    link: "#",
+    link: "https://purplecow3000.github.io/JS30/07%20-%20Array%20Cardio%20Day%202/array-cardio-day-2.html",
     description: "A continuation of the array methods project focusing on more advanced techniques.",
     type: "js30"
   },
