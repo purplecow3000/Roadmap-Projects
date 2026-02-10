@@ -236,6 +236,20 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/09%20-%20Dev%20Tools%20Domination/tools.html",
     description: "A project demonstrating useful developer tools tricks.",
     type: "js30"
+  },
+  {
+    id: "js30-Checkboxes",
+    title: "Custom Checkboxes",
+    link: "https://purplecow3000.github.io/JS30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/checkboxes.html",
+    description: "A project that allows users to check multiple checkboxes by holding the Shift key.",
+    type: "js30"
+  },
+  {
+    id: "js30-Custom-Video-Player",
+    title: "Custom Video Player",
+    link: "https://purplecow3000.github.io/JS30/11%20-%20Custom%20Video%20Player/video.html",
+    description: "A custom video player with controls built using JavaScript.",
+    type: "js30"
   }
 
 ];
