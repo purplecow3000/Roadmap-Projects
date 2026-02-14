@@ -250,6 +250,41 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/11%20-%20Custom%20Video%20Player/video.html",
     description: "A custom video player with controls built using JavaScript.",
     type: "js30"
+  },
+  {
+    id: "js30-Key-Sequence-Detection",
+    title: "Key Sequence Detection",
+    link: "https://purplecow3000.github.io/JS30/12%20-%20Key%20Sequence%20Detection/konami.html",
+    description: "A project that detects specific key sequences, such as the Konami code.",
+    type: "js30"
+  },
+  {
+    id: "js30-Slide-In-On-Scroll",
+    title: "Slide In On Scroll",
+    link: "https://purplecow3000.github.io/JS30/13%20-%20Slide%20in%20on%20Scroll/slide-in.html",
+    description: "A project that creates a slide-in effect for elements as they enter the viewport on scroll.",
+    type: "js30"
+  },
+  {
+    id: "js30-References",
+    title: "References",
+    link: "https://purplecow3000.github.io/JS30/14%20-%20JavaScript%20References%20VS%20Copying/references.html",
+    description: "A project that demonstrates how to use references in JavaScript to store and manipulate data.",
+    type: "js30"
+  },
+  {
+    id: "js30-Local-Storage",
+    title: "Local Storage",
+    link: "https://purplecow3000.github.io/JS30/15%20-%20LocalStorage/local-storage.html",
+    description: "A project demonstrating the use of local storage in JavaScript to save data in the browser.",
+    type: "js30"
+  },
+  {
+    id: "js30-Mouse-Move-Shadow",
+    title: "Mouse Move Shadow",
+    link: "https://purplecow3000.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/mouse-move-shadow.html",
+    description: "A project that creates a shadow effect that follows the mouse movement.",
+    type: "js30"
   }
 
 ];
