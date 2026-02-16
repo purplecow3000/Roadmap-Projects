@@ -285,6 +285,20 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/mouse-move-shadow.html",
     description: "A project that creates a shadow effect that follows the mouse movement.",
     type: "js30"
+  },
+  {
+    id: "js30-Sort-Without-Articles",
+    title: "Sort Without Articles",
+    link: "https://purplecow3000.github.io/JS30/17%20-%20Sort%20Without%20Articles/sort.html",
+    description: "A project that sorts a list of items while ignoring common articles like 'the', 'a', and 'an'.",
+    type: "js30"
+  },
+  {
+    id: "js30-Adding-Up-Times-With-Reduce",
+    title: "Adding Up Times With Reduce",
+    link: "https://purplecow3000.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/reduce.html",
+    description: "A project that demonstrates how to use the reduce method in JavaScript to sum up an array of time values.",
+    type: "js30"
   }
 
 ];
