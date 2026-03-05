@@ -299,6 +299,13 @@ export const projects = [
     link: "https://purplecow3000.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/reduce.html",
     description: "A project that demonstrates how to use the reduce method in JavaScript to sum up an array of time values.",
     type: "js30"
+  },
+  {
+    id: "roadmap-tabs",
+    title: "Tabs Component",
+    link: "/10-tabs/tabs.html",
+    description: "A reusable tabs component built with HTML, CSS, and JavaScript.",
+    type: "roadmap"
   }
 
 ];
