@@ -8,4 +8,4 @@ Datepicker UI Project link: https://roadmap.sh/projects/datepicker-ui<br>
 Acessible Form UI Project link: https://roadmap.sh/projects/accessible-form-ui<br>
 Image Grid Layout Project link: https://roadmap.sh/projects/image-grid<br>
 Tooltip UI Project link: https://roadmap.sh/projects/tooltip-ui<br>
-Tabs Project link: https://roadmap.sh/projects/tooltip-ui<br>
+Tabs Project link: https://roadmap.sh/projects/simple-tabs<br>
