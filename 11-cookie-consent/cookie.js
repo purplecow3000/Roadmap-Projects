@@ -15,7 +15,9 @@ declineBtn.addEventListener("click", () => {
 window.addEventListener("load", () => {
   const consent = localStorage.getItem("cookieConsent");
   console.log(`Cookie consent was previously ${consent}.`);
-  if (consent === "accepted") {
+  if (!consent) {
+    cookieConsent.style.display = "block";
+  } else if (consent === "declined") {
     cookieConsent.style.display = "block";
   } else {
     cookieConsent.style.display = "none";
