@@ -9,3 +9,4 @@ Acessible Form UI Project link: https://roadmap.sh/projects/accessible-form-ui<b
 Image Grid Layout Project link: https://roadmap.sh/projects/image-grid<br>
 Tooltip UI Project link: https://roadmap.sh/projects/tooltip-ui<br>
 Tabs Project link: https://roadmap.sh/projects/simple-tabs<br>
+Cookie Consent Project link: https://roadmap.sh/projects/cookie-consent<br>
