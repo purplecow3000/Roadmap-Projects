@@ -306,6 +306,13 @@ export const projects = [
     link: "/10-tabs/tabs.html",
     description: "A reusable tabs component built with HTML, CSS, and JavaScript.",
     type: "roadmap"
+  },
+  {
+    id: "roadmap-textarea",
+    title: "Restricted Textarea",
+    link: "/12-restricted-textarea/textarea.html",
+    description: "A textarea that limits input to 100 characters and displays a character count.",
+    type: "roadmap"
   }
 
 ];
